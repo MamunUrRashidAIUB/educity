@@ -1,7 +1,7 @@
 .hero {
     width: 100%;
     height: 100vh; /* Full viewport height */
-    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/hero.png'); /* Ensure correct path */
+    background: linear-gradient(#08003ab3, rgba(8, 0, 58, 0.7)), url('../../assets/hero.png'); /* Ensure correct path */
     background-size: cover;
     background-position: center;
     display: flex; /* Use flexbox for centering */

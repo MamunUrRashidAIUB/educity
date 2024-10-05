@@ -11,6 +11,7 @@
     /* Ensures it stays at the top */
     z-index: 10; 
     color: #ffffff;/* Makes sure it stays on top of other content */
+   
 }
 
 .navbar-logo {
