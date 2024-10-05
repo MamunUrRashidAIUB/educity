@@ -1,10 +1,25 @@
-.hero{
+.hero {
     width: 100%;
-    min-height: 100vh;
-    background:linear-gradient(rgba(8,0,58,.7),rgba(8,0,58,.7)) url('../../assets/hero.png');
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), url('../../assets/hero.png'); /* Ensure correct path */
     background-size: cover;
     background-position: center;
-    
-    
-   
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    color: aliceblue; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Adjust font size for the heading */
+    margin: 0; /* Remove default margin */
+}
+
+.hero p {
+    font-size: 1.2rem; /* Adjust font size for the paragraph */
+    max-width: 600px; /* Limit the width for readability */
+    margin: 20px 0 0 0; /* Margin to space the paragraph below the heading */
 }
