@@ -1,8 +1,8 @@
 .programs {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 100px;
     padding: 40px;
     background-color: #f8f9fa;
 }
@@ -12,7 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #792f2f;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
     overflow: hidden;
