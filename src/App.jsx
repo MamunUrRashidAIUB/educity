@@ -12,7 +12,7 @@ const App = () => {
     <Title subTitle='Our Program' title='what we offer'/>
     <Programs/>
     <About/>
-    <Title subTitle={GALLERY} title='Campus Photos'/></div>
+    <Title subTitle='GALLERY' title='Campus Photos'/></div>
   )
 }
 
