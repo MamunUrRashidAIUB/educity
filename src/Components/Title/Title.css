@@ -1,0 +1,16 @@
+.title {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.title p {
+    margin: 0; 
+    font-size: 20px;
+    color: #333; 
+}
+
+.title h2 {
+    margin: 0; 
+    font-size: 40px; 
+    color: #333; 
+}
