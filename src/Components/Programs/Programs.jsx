@@ -9,7 +9,7 @@ const Programs = () => {
             <div className="program"><img src={program_1} alt="" /></div>
             <div className="program"><img src={program_2} alt="" /></div>
             <div className="program"><img src={program_3} alt="" /></div>
-            <h1>just chekck</h1>
+            
         </div>
     )
 }
