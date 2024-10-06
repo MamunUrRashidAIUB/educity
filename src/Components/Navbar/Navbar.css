@@ -3,15 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 4px 100px;
- /* Semi-transparent background */
-    position: fixed; /* Keeps the navbar fixed on top */
-    width: 100%; /* Makes the navbar stretch across the full width of the viewport */
-    top: 0; 
+    position: fixed;
+    width: 100%;
+    top: 0;
     left: 0;
-    /* Ensures it stays at the top */
-    z-index: 10; 
-    color: #ffffff;/* Makes sure it stays on top of other content */
-   
+    z-index: 10;
+    color: #ffffff;
 }
 
 .navbar-logo {
@@ -37,7 +34,6 @@
     color: #497b97;
 }
 
-/* Styling for Contact Us button */
 .contact-button {
     background-color: #ffffff;
     color: rgb(7, 6, 6);
@@ -55,3 +51,5 @@
     background-color: #0056b3;
     color: #ffffff;
 }
+.dark-nav{background: rgb(96, 78, 161);
+transition: 0.5;}
