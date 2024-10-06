@@ -6,12 +6,12 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
-const [sticky,setsticky]=useState(false);
-useEffect(()=>{window.addEventListener('scroll',()=>{
-  window.scrollY > 50 ? setsticky(true):setsticky(false);
-})},[]);
+// const [sticky,setsticky]=useState(false);
+// useEffect(()=>{window.addEventListener('scroll',()=>{
+//   window.scrollY > 50 ? setsticky(true):setsticky(false);
+// })},[]);
   return (
-    <nav className={`navbar ${sticky?'dark-nav':''}`}>
+    <nav className={'navbar'}>
       <img src={logo} alt="Website Logo" className="navbar-logo" />
       <ul className="navbar-menu">
         <li> <Link to='hero' smooth={true} offset={0} duration={500}>Home</Link>  </li>
