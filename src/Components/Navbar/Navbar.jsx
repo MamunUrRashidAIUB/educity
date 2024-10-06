@@ -20,9 +20,9 @@ useEffect(()=>{window.addEventListener('scroll',()=>{
         <li><Link to='about-container' smooth={true} offset={-80} duration={500}>About us</Link> </li>
         <li><Link to='photos-container' smooth={true} offset={-190} duration={500}>Campus</Link></li>
         <li><Link to='testimonial' smooth={true} offset={-230} duration={500}>Testimonials</Link></li>
-        <li>
+        <li className="contact-button">
           <Link to="contact-info" smooth={true} offset={-100} duration={500}>
-            <button className="contact-button">Contact Us</button>
+              Contact Us
           </Link>
         </li>
       </ul>
