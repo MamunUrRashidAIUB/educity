@@ -15,32 +15,68 @@ const Navbar = () => {
       <img src={logo} alt="Website Logo" className="navbar-logo" />
       <ul className={`navbar-menu ${menuOpen ? "show" : ""}`}>
         <li>
-          <Link to="hero" smooth={true} offset={0} duration={500} onClick={() => setMenuOpen(false)}>
+          <Link
+            to="hero"
+            smooth={true}
+            offset={0}
+            duration={500}
+            onClick={() => setMenuOpen(false)}
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="programs" smooth={true} offset={-230} duration={500} onClick={() => setMenuOpen(false)}>
+          <Link
+            to="programs"
+            smooth={true}
+            offset={-230}
+            duration={500}
+            onClick={() => setMenuOpen(false)}
+          >
             Program
           </Link>
         </li>
         <li>
-          <Link to="about-container" smooth={true} offset={-80} duration={500} onClick={() => setMenuOpen(false)}>
+          <Link
+            to="about-container"
+            smooth={true}
+            offset={-80}
+            duration={500}
+            onClick={() => setMenuOpen(false)}
+          >
             About us
           </Link>
         </li>
         <li>
-          <Link to="photos-container" smooth={true} offset={-190} duration={500} onClick={() => setMenuOpen(false)}>
+          <Link
+            to="photos-container"
+            smooth={true}
+            offset={-190}
+            duration={500}
+            onClick={() => setMenuOpen(false)}
+          >
             Campus
           </Link>
         </li>
         <li>
-          <Link to="testimonial" smooth={true} offset={-230} duration={500} onClick={() => setMenuOpen(false)}>
+          <Link
+            to="testimonial"
+            smooth={true}
+            offset={-230}
+            duration={500}
+            onClick={() => setMenuOpen(false)}
+          >
             Testimonials
           </Link>
         </li>
         <li className="contact-button">
-          <Link to="contact-info" smooth={true} offset={-100} duration={500} onClick={() => setMenuOpen(false)}>
+          <Link
+            to="contact-info"
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={() => setMenuOpen(false)}
+          >
             Contact Us
           </Link>
         </li>
@@ -52,7 +88,10 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger Button */}
-      <div className={`hamburger ${menuOpen ? "active" : ""}`} onClick={toggleMenu}>
+      <div
+        className={`hamburger ${menuOpen ? "active" : ""}`}
+        onClick={toggleMenu}
+      >
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>

@@ -79,7 +79,7 @@
   background-color: white;
 }
 
-/* Close Button */
+/* Close Button (Mobile Only) */
 .close-button {
   position: absolute;
   top: 20px;
@@ -136,6 +136,11 @@
   .hamburger {
     display: flex; /* Show hamburger button on mobile */
   }
+
+  /* Show Close Button on Mobile */
+  .close-button {
+    display: block; /* Ensure it's visible only on mobile screens */
+  }
 }
 
 /* Media Query for Larger Screens */
@@ -147,5 +152,10 @@
     background-color: transparent; /* Make background transparent */
     flex-direction: row; /* Align items horizontally */
     justify-content: flex-end; /* Align items to the right */
+  }
+
+  /* Hide Close Button on Larger Screens */
+  .close-button {
+    display: none;
   }
 }
