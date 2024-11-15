@@ -83,7 +83,7 @@ const Navbar = () => {
 
         {/* Close Button */}
         <li className="close-button" onClick={() => setMenuOpen(false)}>
-          <span>&times;</span> {/* "×" symbol for the close button */}
+          <span>X</span> {/* "×" symbol for the close button */}
         </li>
       </ul>
 
